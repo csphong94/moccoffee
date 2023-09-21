@@ -1,0 +1,123 @@
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mộc Coffee</title>
+  <link rel="stylesheet" href="CSS/indexCSS.css">
+</head>
+<body>
+  <header backgound-image="Image/cfbg.jpg">
+    <h1>MỘC COFFE</h1>
+    <nav class="header-menu">
+      <a href="#" class="navmenu">Menu</a>
+      <a href="#" class="navpay">Thanh toán</a>
+      <a href="#" class="navcontact">Liên hệ</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2 id="menu">Menu</h2>
+      <ul class="menu">
+        <li>
+          <div class="item-image">
+            <img src="Image/cf.jpg" alt="Cà phê" style="object-fit: cover; object-position: center;">
+          </div>
+          <div class="item-content">
+            <h3>Cà phê</h3>
+            <ul class="menucontent">
+              <li>Cà phê</li>
+              <li>Cà phê sữa</li>
+              <li>Bạc Xỉu</li>
+              <li>Giá: 22.000</li>
+              <li>Giá: 24.000</li>
+              <li>Giá: 24.000</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div class="item-image">
+            <img src="Image/tea.jpg" alt="Cà phê" style="object-fit: cover; object-position: center;">
+          </div>
+          <div class="item-content">
+            <h3>Trà</h3>
+            <ul class="menucontent">
+              <li>Liptop</li>
+              <li>Lipton sữa</li>
+              <li>Trà Đào</li>
+              <li>Trà Vải</li>
+              <li>Giá: 20.000</li>
+              <li>Giá: 22.000</li>
+              <li>Giá: 24.000</li>
+              <li>Giá: 24.000</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div class="item-image">
+            <img src="Image/cf.jpg" alt="Cà phê" style="object-fit: cover; object-position: center;">
+          </div>
+          <div class="item-content">
+            <h3>Cà phê</h3>
+            <ul class="menucontent">
+              <li>Cà phê</li>
+              <li>Cà phê sữa</li>
+              <li>Bạc Xỉu</li>
+              <li>Giá: 22.000</li>
+              <li>Giá: 24.000</li>
+              <li>Giá: 24.000</li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2 id="contact">Liên hệ</h2>
+      <div> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d557.984027206707!2d106.64967581250988!3d10.746610579405383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752e604d1c13c5%3A0xf79d42120fa194ad!2zNzZBIMSQLkNhbyBWxINuIEzhuqd1LCBQaMaw4budbmcgMSwgUXXhuq1uIDYsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1695287443067!5m2!1svi!2s" style="width: 100%; border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </div>
+      <p>
+        <b>Địa chỉ:</b> <a href="https://maps.app.goo.gl/SRkdyzTSXgEKyQtN9"> 76A, Cao Văn Lầu, Phường 1, Quận 6, TPHCM </a>
+        <br>
+        <b>Số điện thoại:</b> <a href="tel:0938838889">0938.838.889</a>
+        <br>
+        <b>Email:</b> <a href="ngoctram@r24b.onmicrosoft.com">ngoctram@r24b.onmicrosoft.com</a>  
+      </p>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright &copy; Chồng bà chủ
+    </p>
+  </footer>
+</body>
+<script>
+const headercontact = document.querySelector(".navcontact");
+const contact = document.querySelector("#contact"); 
+
+const headermenu = document.querySelector(".navmenu");
+const menu = document.querySelector("#menu"); 
+
+const headerpay = document.querySelector(".navpay");
+const pay = document.querySelector("#pay"); 
+
+headercontact.addEventListener("click", function() {
+  window.scrollTo({
+    top: contact.offsetTop,
+    behavior: "smooth",
+  });
+});
+
+headermenu.addEventListener("click", function() {
+  window.scrollTo({
+    top: menu.offsetTop,
+    behavior: "smooth",
+  });
+});
+
+headerpay.addEventListener("click", function() {
+  window.scrollTo({
+    top: pay.offsetTop,
+    behavior: "smooth",
+  });
+});
+</script>
+
+
+</html>
